@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Pateints from './componentes/Pateints';
+import Countries from './componentes/Countries';
 import './App.css';
 
 import { Provider } from 'react-redux';
@@ -11,6 +12,7 @@ class App extends Component {
       <Provider store={store}>
         <div className="App">
           <Pateints />
+          <Countries />
         </div>
       </Provider>
     );
